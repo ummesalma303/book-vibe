@@ -8,8 +8,8 @@ const Banner = () => {
       src={bookImage}
       className="rounded-lg shadow-2xl" />
     <div className='p-5'>
-      <h1 className="text-6xl font-bold">Books to freshen up your bookshelf</h1>
-      <button className="btn btn-success text-white mt-8">Get Started</button>
+      <h1 className="font-playFair text-6xl font-bold">Books to freshen up your bookshelf</h1>
+      <button className="font-workSans btn btn-success text-white mt-8">Get Started</button>
     </div>
   </div>
 </div>

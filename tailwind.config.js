@@ -5,7 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      playFair: ' Playfair',
+      workSans:'Work Sans'
+    },
   },
   plugins: [
     require('daisyui'),

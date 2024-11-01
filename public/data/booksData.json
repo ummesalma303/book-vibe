@@ -20,13 +20,13 @@
     "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
     "totalPages": 281,
     "rating": 4.8,
-    "category": "Fiction",
+    "cateboogory": "Fiction",
     "tags": ["Drama", "Social Justice"],
     "publisher": "J.B. Lippincott & Co.",
     "yearOfPublishing": 1960
   },
   {
-    "bookId": 3,
+    "kId": 3,
     "bookName": "1984",
     "author": "George Orwell",
     "image": "https://i.ibb.co.com/MprDyVt/51-BIA4rrae-L-AC-UF1000-1000-QL80.jpg",
