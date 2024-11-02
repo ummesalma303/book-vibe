@@ -36,6 +36,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/dashBoard',
+        // loader: ()=>fetch('/data/booksData.json'),
         element:<DashBoard></DashBoard>
       }
     ]

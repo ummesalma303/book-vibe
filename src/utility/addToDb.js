@@ -25,10 +25,12 @@ const addToStoredReadList = (id) => {
         // removeReadList(id)
 
 const removeReadList = (id) => {
-    const removeReadList = getBook();
-    const remaining = removeReadList.filter(idx => idx !== id);
-    addToStoredReadList(remaining)
-    // localStorage.setItem('read-list',JSON.stringify(remaining))
+    const removeRead = getBook();
+    const remaining = removeRead.filter(idx => idx !== id);
+    console.log(id)
+    console.log(remaining,removeRead)
+    // localStorage.setItem('read-list',remaining)
+    localStorage.setItem('read-list',JSON.stringify(remaining))
 }
 
 // wish list

@@ -26,8 +26,9 @@ const ListedBooks = () => {
     },[])
 
     const handleRemove = (id) => {
-        console.log(id);
-        removeReadList(id)
+        const books = readList.filter(book => book.bookId !== id)
+        setReadList(books)
+        removeReadList(id.toString())
     }
     // sort
     const handleRatting = (rating) => {
